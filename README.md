@@ -12,7 +12,7 @@
 
 直接在extender里面下载即可
 
-![Snipaste_2021-10-26_21-30-37](https://adsry.oss-cn-beijing.aliyuncs.com/img/Snipaste_2021-10-26_21-30-37.png)
+![Snipaste_202](https://adsry.oss-cn-beijing.aliyuncs.com/img/Snipaste_202.png)
 
 会生成这类的代码
 
