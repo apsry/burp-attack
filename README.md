@@ -11,8 +11,9 @@
 ## 1:关于burp的python插件
 
 直接在extender里面下载即可
+![Snipaste_202](https://user-images.githubusercontent.com/55017061/144565771-dff3cce8-5647-4d6f-960b-f0c39747e491.png)
 
-![Snipaste_202](https://adsry.oss-cn-beijing.aliyuncs.com/img/Snipaste_202.png)
+
 
 会生成这类的代码
 
